@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="personal homepage of croeer">
+  <meta name="author" content="Christian Roeer">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>croeer.de</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">croeer.de</a>
       <a class="btn btn-primary" href="#">Sign In</a>
     </div>
   </nav>
@@ -41,7 +41,7 @@
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
         </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        <!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
           <form>
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
@@ -52,7 +52,7 @@
               </div>
             </div>
           </form>
-        </div>
+        </div> -->
       </div>
     </div>
   </header>
@@ -64,27 +64,27 @@
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
+              <i class="fab fa-dev m-auto text-primary"></i>
             </div>
-            <h3>Fully Responsive</h3>
+            <h3>Entwicklung</h3>
             <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
+              <i class="fas fa-laptop-code m-auto text-primary"></i>
             </div>
-            <h3>Bootstrap 4 Ready</h3>
+            <h3>Web-Design</h3>
             <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
+              <i class="fas fa-handshake m-auto text-primary"></i>
             </div>
-            <h3>Easy to Use</h3>
+            <h3>Aus einer Hand</h3>
             <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
           </div>
         </div>
@@ -99,14 +99,14 @@
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
+          <h2>Individualentwicklung</h2>
           <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
+          <h2>Web-Entwicklung</h2>
           <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
         </div>
       </div>
@@ -123,13 +123,16 @@
   <!-- Testimonials -->
   <section class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
+      <h2 class="mb-5">Portfolio</h2>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <a href="https://www.tierschutzverein-ibbenbueren.de/" target="_blank">
+            <img class="img-fluid rounded-circle mb-3" src="img/portfolio1.png" alt="">
+            </a>
+            <h5>TSV Ibbenbüren</h5>
+            <p class="font-weight-light mb-0">Umzug der alten Homepage des Tierschutzvereins Ibbenbüren auf eine moderne Wordpress-Umgebung.</p>
+            <p class="font-weight-light mb-0"><a href="https://www.tierschutzverein-ibbenbueren.de/" target="_blank">https://www.tierschutzverein-ibbenbueren.de/</a></p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -181,7 +184,7 @@
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
-              <a href="#">About</a>
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">Impressum</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
@@ -196,23 +199,28 @@
               <a href="#">Privacy Policy</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2020. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Christian R&ouml;er 2020</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
-              <a href="#">
+              <a href="https://www.facebook.com/christian.roer.7" target="_blank">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+              <a href="https://github.com/croeer/" target="_blank">
+                <i class="fab fa-github fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="https://www.xing.com/profile/Christian_Roeer/" target="_blank">
+                <i class="fab fa-xing-square fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              <a href="https://www.linkedin.com/in/croeer/" target="_blank">
+                <i class="fab fa-linkedin-in fa-2x fa-fw"></i>
               </a>
             </li>
           </ul>
@@ -220,6 +228,41 @@
       </div>
     </div>
   </footer>
+
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Impressum -->
+                <h2 class="text-uppercase">Impressum</h2>
+                <p class="item-intro text-muted">Angaben gemäß § 5 TMG</p>
+                <p>Christian R&ouml;er<br>
+                Teckelweg 8a<br>
+                49479 Ibbenb&uuml;ren</p>
+                <p><strong>Vertreten durch:</strong><br>Christian R&ouml;er</p>
+                <!-- <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Threads</li>
+                  <li>Category: Illustration</li>
+                </ul> -->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Schlie&szlig;en</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
